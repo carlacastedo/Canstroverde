@@ -1,0 +1,212 @@
+@import url('http://fonts.cdnfonts.com/css/havioleta-handwritten-free');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+  :root {
+  --oscuro: #A8581D;
+  --mediooscuro: #CD793B;
+  --normal: #EB9C61;
+  --medioclaro: #FFBE8E;
+  --claro: #FFD6B8;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+
+p{
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav, .submenu, nav>ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav, h1, h2, h3 {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+h1 {
+  color: #CD793B;
+  font-size: 250%;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+nav>ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+header>a{
+  width: 18%;
+  padding: 18px 50px;
+  padding-bottom: 0;
+  margin: 0;
+}
+header>a>figure>img {
+  width: 100%;
+  padding: 0;
+  margin:0;
+}
+header>a>figure {
+  width: 100%;
+  padding: 0;
+  margin:0;
+}
+
+nav>ul>li {
+  display: block;
+  text-align: center;
+  position: relative;
+  font-size: 110%;
+  padding: 0;
+}
+
+nav>ul>li>a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 50px 68px;
+}
+
+.prod{
+  padding: 50px 68px;
+}
+
+nav li:hover {
+  transition-duration: 0.3s;
+  background: rgba(235, 156, 97, 0.2);
+}
+
+nav>ul>li:hover>ul {
+  transition-duration: 0.3s;
+  display: block;
+}
+
+.submenu {
+  list-style: none;
+  display: none;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: white;
+}
+
+.submenu>li>a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 25px 31px;
+}
+
+
+footer {
+  color: white;
+  background-color: #A8581D;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 1.4vw;
+  padding: 0;
+  margin-top: 2vw;
+  padding-top: 2vw;
+  width: 100%;
+  height: auto;
+}
+
+footer>div{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer>div>figure {
+  width: 20%;
+  height: auto;
+  padding-top: 1vw;
+}
+
+footer>div>figure>img {
+  width: 100%;
+  height: auto;
+}
+
+#informacion {
+  margin: 0;
+  padding: 3vw;
+
+}
+
+#informacion>ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+#informacion>ul>li {
+  list-style: none;
+  padding-top: 0.5vw;
+  padding-left: 1.5vw;
+  padding-bottom: 1.5vw;
+  margin: 0;
+  text-align: center;
+}
+
+#informacion>ul>li>a {
+  color: white;
+}
+
+footer>p {
+  text-align: center;
+  background: #A8581D;
+  margin: 0;
+  padding-top: 1vw;
+  padding-bottom: 3vw;
+}
+
+.direccion{
+  display: flex;
+}
+
+.texto{
+  padding-right: 3vw;
+  max-width: 20vw;
+}
+
+iframe{
+  padding-top: 1vw;
+}

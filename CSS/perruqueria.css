@@ -1,0 +1,24 @@
+@import "estilos.css";
+
+section{
+    margin: 0;
+    padding: 0;
+}
+article{
+    display: grid;
+    grid-template-areas: "info foto";
+    justify-content: space-evenly;
+    padding: 0vw 7vw;
+    padding-bottom: 6vw;
+    column-gap: 10vw;
+    font-size: 85%;
+}
+article>figure{
+    width: 100%;
+}
+article>figure>img{
+    width: 100%;
+}
+h1{
+    padding-left: 7vw;
+}

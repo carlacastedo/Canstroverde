@@ -1,0 +1,81 @@
+@import "estilos.css";
+
+section{
+    margin: 0;
+    padding: 0;
+}
+article{
+    display: grid;
+    grid-template-areas: "info botons foto";
+    justify-content: space-evenly;
+    padding: 0vw 6vw;
+    padding-bottom: 6vw;
+    column-gap: 12vw;
+    font-size: 85%;
+    align-content: center;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+figure{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    align-content: center;
+}
+figure>img{
+    width: 100%;
+}
+h1{
+    padding-left: 7vw;
+}
+
+h2{
+    font-size: 125%;
+    color: #CD793B;
+}
+
+.campo{
+    color:black;
+}
+
+button{
+    background: #CD793B !important;
+    border: none;
+    font-size: 165%;
+    font-family: 'Playfair Display', sans-serif;
+    color: white;
+    border-radius: 6px;
+    margin-top: 2vw;
+    padding: 1vw;
+    cursor: pointer;
+}
+
+.boton>a{
+    color: white;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+input{
+    font-size: 115%;
+    border-radius: 4px;
+    margin-top: 2vw;
+    border-style: solid;
+    background: rgba(0, 0, 0, 0.1);
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.id{
+    color: #EB9C61;
+    /*padding: 10px;
+    border-style: solid;*/
+}
+
+.botons{
+    text-align: center;
+    padding-top: 5vw;
+}
+
+.info{
+    padding-left: 2vw;
+}

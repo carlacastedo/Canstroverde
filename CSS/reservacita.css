@@ -1,0 +1,87 @@
+@import "estilos.css";
+
+section{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display: grid;
+    grid-template-areas: "col1 col2 foto";
+    justify-content: space-evenly;
+    padding: 0vw 6vw;
+    padding-bottom: 6vw;
+    column-gap: 10vw;
+    font-size: 85%;
+    align-content: center;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+figure{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+figure>img{
+    width: 100%;
+}
+h1{
+    padding-left: 7vw;
+}
+
+h2{
+    padding-left: 7vw;
+    font-size: 145%;
+}
+
+.text, select{
+    font-size: 115%;
+    border-radius: 4px;
+    margin-top: 3vw;
+    border-style: solid;
+    border-color: transparent;
+    background: rgba(0, 0, 0, 0.1);
+    font-family: 'Playfair Display', sans-serif;
+    width: 21vw;
+    height: 3vw;
+}
+
+select, date{
+    height: 3.5vw;
+}
+
+textarea{
+    padding: auto;
+    resize: none;
+    height: 13vw;
+}
+
+.boton{
+    background: #CD793B;
+    border: none;
+    padding: 1vw;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 2vw;
+    color: white;
+    font-size: 165%;
+    font-family: 'Playfair Display', sans-serif;
+    width: 21vw;
+}
+
+.alerta{
+    font-size: 90%;
+}
+
+button{
+    background: #CD793B !important;
+    border: none;
+    font-size: 165%;
+    font-family: 'Playfair Display', sans-serif;
+    color: white;
+    border-radius: 6px;
+    margin-top: 2vw;
+    padding: 1vw;
+    cursor: pointer;
+}

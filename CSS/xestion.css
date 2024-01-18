@@ -1,0 +1,50 @@
+@import "estilos.css";
+
+section{
+    margin: 0;
+    padding: 0;
+}
+article{
+    display: grid;
+    grid-template-areas: "reserva modifica";
+    justify-content: space-evenly;
+    padding: 0vw 6vw;
+    padding-bottom: 10.5vw;
+    column-gap: 10vw;
+    font-size: 85%;
+    align-content: center;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1{
+    padding-left: 7vw;
+}
+
+h2{
+    font-size: 165%;
+}
+
+button{
+    background: #CD793B;
+    border: none;
+    padding: 1vw;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 2vw;
+}
+button>a{
+    color: white;
+    font-size: 165%;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+input{
+    font-size: 115%;
+    border-radius: 4px;
+    margin-top: 2vw;
+    border-style: solid;
+    background: rgba(0, 0, 0, 0.1);
+    font-family: 'Playfair Display', sans-serif;
+}

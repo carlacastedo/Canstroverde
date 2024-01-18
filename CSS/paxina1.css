@@ -1,0 +1,61 @@
+@import "estilos.css";
+
+section{
+    margin: 0;
+    padding: 0;
+    font-size: 90%;
+}
+article{
+    display: grid;
+    grid-template-areas: "info foto";
+    justify-content: space-evenly;
+    padding: 0vw 7vw;
+    padding-bottom: 6vw;
+    column-gap: 10vw;
+    font-size: 85%;
+}
+article>figure{
+    width: 100%;
+}
+article>figure>img{
+    width: 100%;
+}
+h1{
+    padding-left: 7vw;
+}
+
+.info{
+    text-align: center;
+    justify-content: center;
+}
+button{
+    background: #CD793B;
+    border: none;
+    padding: 1vw;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 5vw;
+}
+button>a{
+    color: white;
+    font-size: 235%;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+table{
+    margin-top: 3vw;
+    display: inline-block;
+    font-size: 140%;
+    padding: 2vw;
+    box-sizing: border-box;
+    margin: auto;
+    border-collapse: separate;
+    font-family: 'Playfair Display', sans-serif;
+    border-spacing: 1.5vw 0.5vw;
+    border-style: solid;
+    border-color: #CD793B;
+}
+
+p{
+    text-align: justify;
+}

@@ -1,0 +1,73 @@
+@import "estilos.css";
+
+section{
+    margin: 0;
+    padding: 0;
+    font-size: 90%;
+}
+
+article{
+    display: grid;
+    grid-template-areas: "info foto";
+    justify-content: space-evenly;
+    padding: 0vw 7vw;
+    padding-bottom: 6vw;
+    column-gap: 10vw;
+    font-size: 85%;
+}
+article>figure{
+    width: 100%;
+}
+article>figure>img{
+    width: 100%;
+}
+h1{
+    padding-left: 0;
+}
+
+.info{
+    text-align: center;
+    justify-content: center;
+}
+
+.descripcion{
+    display: grid;
+    grid-template-areas: "cores prezo";
+    justify-content: space-evenly;
+}
+
+.prezo, cores{
+    justify-content: center;
+    text-align: center;
+    margin-top: 0;
+}
+
+.numero{
+    font-family: 'Playfair Display', sans-serif;
+    color: #A8581D;
+    font-size: 370%;
+}
+
+
+.cor{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 120%;
+}
+
+.arriba{
+    display: flex;
+}
+ .arriba>a{
+     width: 8%;
+     margin-top: 2.5vw;
+     height: 10%;
+ }
+
+.undo{
+    width: 30%;
+    padding-left: 0;
+}
+
+.undo>img{
+    width: 100%;
+}

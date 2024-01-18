@@ -1,0 +1,96 @@
+@import "estilos.css";
+
+.presentacion{
+    display: flex;
+}
+
+.info{
+    text-align: center;
+}
+
+.portada{
+    width: 60%;
+    margin-top: 2.5%;
+}
+
+.portada>img{
+    width: 100%;
+}
+
+.fotosrrss{
+    width: 20%;
+    margin: auto;
+    display: flex;
+}
+
+.fotosrrss>a{
+    padding: 0;
+    margin: 0;
+}
+.fotosrrss>a>img{
+    width: 100%;
+}
+
+.maisinfo{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: "perruqueria columna";
+    justify-content: space-evenly;
+    padding: 0vw 5vw;
+    padding-bottom: 6vw;
+    column-gap: 5vw;
+    row-gap: 5vw;
+}
+
+.container>div>p, .container>div>div>p{
+    font-size: 85%;
+}
+
+.container>div>a, .container>div>div>a{
+    color: #CD793B;
+    font-weight: bold;
+    font-size: 85%;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+hr{
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    width: 75%;
+}
+
+button{
+    background: #CD793B;
+    border: none;
+    padding: 1vw;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 5vw;
+}
+button>a{
+    color: white;
+    font-size: 235%;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+footer>p{
+    padding: 2vw;
+}
+
+.enlaces{
+    display: flex;
+    margin: auto;
+    padding-top: 2vw;
+    justify-content: center;
+    font-family: 'Playfair Display', sans-serif;
+}
+.enlaces>a{
+    color: #CD793B;
+}
+
+.enlaces * + *{
+    margin-left: 0.5em;
+}

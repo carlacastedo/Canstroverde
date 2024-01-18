@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserva de cita</title>
+    <meta name="description" content="Páxina de reserva de cita da perruquería e tenda para cans Canstroverde">
+    <meta name="keywords" content="Canstroverde, cans, peiteado, perruquería">
+    <link rel="stylesheet" href="../CSS/reservacita.css">
+    <script src="../sweetalert2.all.min.js"></script>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <figure>
+                <img srcset="../fotos/canstroverde_largot.png" alt="Logo">
+            </figure>
+        </a>
+        <nav class="menu">
+            <ul>
+                <li><a href="../paxinas/perruqueria.html">Perruquería</a></li>
+                <li><a href="../paxinas/adestramento.html">Adestramento</a></li>
+                <li class="prod">Produtos
+                    <ul class="submenu">
+                        <li><a href="../paxinas/accesorios.html">Accesorios</a></li>
+                        <li><a href="../paxinas/xoguetes.html">Xoguetes</a></li>
+                        <li><a href="../paxinas/coidado.html">Coidado do can</a></li>
+                    </ul>
+                </li>
+                <li><a href="../paxinas/xestion.html">Xestión de citas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Reserva de cita</h1>
+            <form class="formulario">
+                <div class="col1">
+                    <input type="text" placeholder="Nome *" required class="text">
+                    <br>
+                    <input type="email" placeholder="Correo electrónico *" required class="text">
+                    <br>
+                    <input type="text" placeholder="Teléfono" class="text">
+                    <br><br><br><br>
+                    <input type="reset" class="boton" value="Borrar escolla">
+                </div>
+
+                <div class="col2">
+                    <select name="servizo" size="1" required>
+                        <option value="selecciona" selected disabled hidden>Escolle o servizo *</option>
+                        <option value="corte">Corte 18€</option>
+                        <option value="peiteado">Peiteado 22€</option>
+                        <option value="corte+peiteado">Corte+Peiteado 36€</option>
+                    </select>
+                    <br>
+                    <input type="date" name="nacemento" class="text" required>
+                    <br>
+                    <select name="servizo" size="1" required>
+                        <option value="selecciona" selected disabled hidden>Escolle a hora *</option>
+                        <option>10:00-11:00</option>
+                        <option>11:00-12:00</option>
+                        <option>12:00-13:00</option>
+                        <option>13:00-14:00</option>
+                        <option>16:00-17:00</option>
+                        <option>17:00-18:00</option>
+                        <option>18:00-19:00</option>
+                        <option>19:00-20:00</option>
+                    </select>
+                    <br><br><br><br>
+                    <input type="submit" value="Aceptar" class="boton" onclick="informar()">
+                </div>
+
+                <figure class="foto">
+                    <img src="../fotos/reserva.jpg" alt="Can sorrinte">
+                </figure>
+
+            </form>
+
+    </section>
+    <footer>
+        <div>
+            <figure>
+                <img src="../fotos/canstroverde_blancot.png" alt="Logo"></img>
+            </figure>
+            <div class="direccion">
+                <div class="texto">
+                    <h4>Horario</h4>
+                    <p>Luns a venres</p>
+                    <p>10:00-14:00 16:00-20:00</p>
+                    <h4>Dirección</h4>
+                    <p>Tr.ª de Rodinso, 0, 27120 Castroverde, Lugo</p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d850.5244531125998!2d-7.323638635990234!3d43.03242752644638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd31b16c207ba1a1%3A0xaa526e5cc8214819!2sPanader%C3%ADa%20Venancio!5e0!3m2!1ses!2ses!4v1666045418366!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="informacion">
+                <ul>
+                    <li><a href="../paxinas/quensomos.html">Quen somos?</a></li>
+                    <li><a href="../paxinas/contacto.html">Contacto</a></li>
+                    <li><a href="../paxinas/preguntasfrecuentes.html">Preguntas frecuentes</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>Copyright 2022 Canstroverde</p>
+    </footer>
+</body>
+<script>
+    function informar(){
+        Swal.fire({
+            title:'Cita reservada',
+            html:'<p class=\'alerta\'>O ID da cita é: MXZS021</p>',
+            icon:'success',
+            confirmButtonText:'Aceptar',
+            allowOutsideClick: false,
+            allowEscapeKey: false,
+            allowEnterKey: false,
+            stopKeydownPropagation: false
+        })
+    }
+
+</script>
+
+</html>
+
+
